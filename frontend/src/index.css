@@ -1,0 +1,172 @@
+/* layout */
+:root {
+    --primary: #1aac83;
+    --error: #e7195a;
+}
+
+body {
+    background: #f1f1f1;
+    margin: 0;
+    font-family:monospace;
+}
+
+/* -------------------Navbar-------------------------- */
+
+header {
+    background: #fff;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items:center;
+}
+
+nav div button{
+   margin-left: 20px;
+}
+
+span {
+    padding: 20px;
+    cursor: pointer;
+}
+
+/* -------------------Home page-------------------------- */
+
+.home {
+    max-width: 1400px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* -------------------Login & Signup Forms----------------*/
+
+section {
+    text-align: center;
+}
+
+section.signup, section.login {
+    text-align:left;
+    max-width: 400px;
+    margin:40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#password2 {
+    margin-left: 21px;
+}
+/* -------------------Forms-------------------------- */
+
+div form {
+    display: block;
+    text-align: center;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.tab {
+    tab-size: 2em;
+}
+
+div.error {
+    padding: 10px;
+    border: 1px solid var(--error);
+    color: #D8000C;
+    border-radius: 3px 3px 3px 3px;
+    margin: 20px 0;
+}
+
+div.success {
+    padding: 10px;
+    border: 1px solid var(--primary);
+    color: #270;
+    border-radius: 3px 3px 3px 3px;
+    margin: 20px 0;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input.error {
+    border: 1px solid var(--error);
+    border-radius: 4px;
+}
+
+hr {
+    border-top: 1px solid ;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight:normal;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--primary)
+}
+
+/* -------------------Employee Page-------------------------- */
+.employee-page {
+    margin-top: 40px;
+}
+
+.employee-listing {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+.employee-list {
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+.employee-edit {
+    display: flex;
+    justify-content: space-between;
+}
+
+article p {
+    overflow-wrap: break-word;
+}
